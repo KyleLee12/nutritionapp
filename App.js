@@ -13,7 +13,7 @@ import { StatusBar } from 'expo-status-bar';
 //import { StyleSheet, Text, TextInput, View } from 'react-native';
 import Amplify from 'aws-amplify';
 import { Auth } from 'aws-amplify';
-import awsconfig from './aws-exports';
+import awsconfig from './src/aws-exports';
 //import { AmplifySignOut, withAuthenticator } from 'aws-amplify-react-native'
 import { withAuthenticator } from 'aws-amplify-react-native'
 //import { AmplifySignOut } from 'aws-amplify-react-native'
